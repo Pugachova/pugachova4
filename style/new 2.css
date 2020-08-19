@@ -1,0 +1,56 @@
+<div class="headline">
+				<p><i class="glyphicon glyphicon-earphone"></i> +00 (123) 456 7890 
+				<i class="glyphicon glyphicon-envelope" style="margin-left: 8%"></i> İNFO@DOMAİN.COM</p>
+			</div>
+			<ul class="menu">
+				<li>
+					<i class="glyphicon glyphicon-home" style="color:#A0522D; margin-right: 51px"></i>
+					<a href="about.html">ABOUT</a>
+				</li>
+				<li>
+					<a href="contact">CONTACT</a>
+				</li>
+				<li>
+					<a href="login">LOGİN</a>
+				</li>
+				<li>
+					<a href="register">REGİSTER</a>
+				</li>
+			</ul>
+		</div>
+		<div class="header_bottom">
+		<h3>CORKLOW</h3>
+		<p>aliquam posuere nulla</p>
+		</div>
+		<ul class="menu_bottom">
+				<li>
+					<a href="home.html" class="home_bottom">HOME</a>
+				</li>
+				<li>
+					<a href="pages"><sub>ˇ</sub> PAGES</a>
+				</li>
+				<li>
+					<a href="dropdown"><sub>ˇ</sub> DROPDOWN</a>
+				</li>
+				<li>
+					<a href="Link_text">LİNKTEXT</a>
+				</li>
+				<li>
+					<a href="Link_text">LİNKTEXT</a>
+				</li>
+			</ul>
+			
+			
+			
+			
+			
+			
+			<div class="gallery_top">
+				<div class="gallery_top_text">
+					<p>Quisque viverra euismod</p>
+					<p>Scelerisque<br>interdum</p>
+					<a href="">Malesuada fames»</a>
+				</div>
+				<img src="image/fastfood.jpg" class="gallery_top_img">
+			</div>	
+		</div>

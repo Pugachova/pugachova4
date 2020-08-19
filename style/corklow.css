@@ -1,0 +1,283 @@
+html,body {
+	margin: 0px;
+}
+.header{
+	float: left;
+	background-color: #F5F5F5;
+	color: #696969;
+	width: 100%;
+}
+.header_top,
+.header_bottom{
+	float: left;
+	width: 98%;
+	padding:1%;
+}
+.contact,
+.headline {
+    list-style: none;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.contact li{
+	display: inline-block;
+}
+.menu_top,
+.menu_bottom{
+	list-style: none;
+	float: right;
+	margin:0px;
+}
+.menu_bottom{
+margin-top: 12px;
+}
+.menu_top li,
+.menu_bottom li{
+	display: inline-block;
+}
+.menu_top li a, 
+.menu_bottom li a,
+.headline{
+	text-decoration: none;
+	color: #696969;
+}
+.menu_top li a, 
+.menu_bottom li a{
+	text-transform: uppercase;
+}
+.menu_top li a.active, 
+.menu_bottom li a.active{
+	color: #bb4a13;
+}
+.menu_bottom li a{
+	font-size: 15px;
+	margin-left: 30px;
+}
+.menu_top li a{
+	font-size: 11px;
+	margin-left: 20px;
+}
+.headline h1, 
+.headline p{
+	margin:0px;
+}
+.header_top{
+	background-color: #f5f5f5;
+}
+.header_bottom{
+	background-color: white;
+}
+.content{
+	width: 100%;
+}
+.banner{
+	background-image: url("../image/fastfood.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	width: 100%;
+	height: 420px;
+	float: left;
+}
+.banner_opacity{
+	background-color: #0000009c;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.banner h2, 
+.banner h6, 
+.banner a{
+	text-transform: uppercase;
+	margin-left: 24px;
+	color: #fff;
+}
+.banner h2 {
+	font-size: 33px;
+}
+.banner h6{
+	font-size: 23px;
+	margin-bottom: 0px;
+}
+.banner a{
+	font-size: 15px;
+}
+.content_medium,
+.content_medium_bottom{
+	width: 80%;
+	float: left;
+	margin-left: 20%;
+}
+.content_medium_bottom{
+	margin-bottom: 60px;
+}
+.content_medium_item{
+	float: left;
+	width: 20%;
+	border: solid gray 1px;
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 60px;
+}
+.content_medium_item img{
+	border: solid gray 1px;
+	padding: 5px;
+}
+.content_medium_item a,
+.content_medium_bottom_item a{
+	color: #dc6126;
+}
+.content_medium_text h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.content_medium_text p{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.content_medium_img{
+	float: left;
+    border: solid gray 1px;
+    padding: 5px;
+}
+.content_medium_bottom_item{
+	float: left;
+    width: 20%;
+    text-align: left;
+	margin-left: 15px;
+    margin-top: -20px;
+}
+.content_medium_bottom_item a{
+	margin-left: 0px;
+}
+.content_bottom_top{
+	background-image: url("../image/fastfood_two.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	width: 100%;
+	height: 420px;
+	float: left;
+}
+.content_bottom_top_opacity{
+	background-color: #0000009c;
+	width: 100%;
+	height: 74%;
+	float: left;
+}
+.content_bottom_top h2, 
+.content_bottom_top h6, 
+.content_bottom_top a{
+	text-transform: uppercase;
+	margin-left: 24px;
+	color: #fff;
+	text-align: center;
+}
+.content_bottom_top h2 {
+	font-size: 10px;
+	margin-bottom: 40px;
+}
+.content_bottom_top h6{
+	font-size: 23px;
+	margin-bottom: 30px;
+}
+.content_bottom_top a{
+	font-size: 15px;
+	border: solid 1px #bb4a13;
+    padding: 10px;
+	background-color: #bd6940;
+	margin-left: 600px;
+}
+.content_bottom_low{
+	float: left;
+	margin-top: -50px;
+	width: 100%;
+	text-align: center;
+}
+.content_bottom_low h3{
+	margin-bottom: -14px;
+}
+.content_bottom_low_galary{
+	float: left;
+    width: 75%;
+    margin-left: 237px;
+	margin-bottom: 60px;
+}
+.content_bottom_low_item{
+	float: left;
+    width: 20%;
+    text-align: left;
+	margin-left: 65px;
+    margin-top: 25px;;
+}
+.content_bottom_low_item img{
+	width: 250px;
+    height: 170px;
+}
+.content_bottom_low_item a{
+	color: #dc6126;
+	margin: 0px;
+}
+.content_bottom_low_item h3{
+	border-bottom: 1px solid gray;
+	padding-bottom: 20px;
+}
+.content_bottom_low_item p{
+	text-align: justify;
+}
+.colortext{
+	color:#dc6126;
+}
+.text-decoration{
+	text-decoration: none;
+}
+.footer{
+	background-color: #F5F5F5;
+	width: 100%;
+	padding-top: 60px;
+    padding-bottom: 60px;
+	float: left;
+}
+.footer h2{
+	text-transform: uppercase;
+	color: gray;
+	text-align: center;
+}
+.footer_menu,
+.footer_media{
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer_menu li,
+.footer_media li{
+	display: inline-block;
+}
+.footer_menu li{
+	margin-right: 25px;
+}
+.footer_menu img{
+	margin-right: 10px;
+}
+.footer_menu li a{
+	text-decoration: none;
+	color: #bb4a13;
+	text-transform: uppercase;
+}
+.footer_media li{
+	background-color: white;
+    border-radius: 100%;
+    width: 3%;
+	height: 27px;
+	margin-right: 1%;
+	padding-top: 7px;
+}
+.footer_text{
+	text-align: center;
+}
+.footer_text_p_two{
+	font-size: 14px;
+	margin-top: -14px;
+}
